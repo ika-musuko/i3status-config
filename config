@@ -61,11 +61,11 @@ tztime local {
 }
 
 cpu_temperature 0 {
-    format = "<span color='#FF6611'>T: %degrees °C</span>"
+    format = "<span color='#AB4642'>T: %degrees °C</span>"
     path = "/sys/bus/platform/devices/coretemp.0/hwmon/hwmon*/temp1_input"
 }
 
 read_file uptime {
-    format = "<span color='#33FF55'>up: %content</span>"
+    format = "<span color='#A1B56C'>up: %content</span>"
     path = "/proc/uptime"
 }
